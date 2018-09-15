@@ -1,160 +1,160 @@
-Eragon
-557
-47
-19
-1000000
-Eldest
-780
-55
-21
-900000
-Brisingr
-820
-62
+O Nome da Rosa
+38
+514
+7
+20000
+Doutor Fausto
+71
+213
+28
+94000
+A Montanha Mágica
+94
+321
+26
+54000
+Os Buddenbrook
+117
+123
 25
-850000
-Inheriance
-912
-75
-27
-780000
-Eragon
-557
-47
+24000
+Som e a Fúria
+89
+545
+24
+71000
+As Flores do Mal
+161
+456
+17
+32000
+Hamlet
+409
+1054
+18
+8000
+Em Busca do Tempo Perdido
+110
+987
 19
-1000000
-Eldest
-780
-55
-21
-900000
-Brisingr
-820
+4000
+O Vermelho e o Negro
+188
+789
+1
+50000
+Madame Bovary
+162
+900
+3
+48000
+Um Sopro de Vida
+40
+888
+8
+45000
+A Hora da Estrela
+41
+703
+2
+100000
+Primeiras Estórias
+86
+703
+1
+78000
+Grande Sertão: Veredas
 62
-25
-850000
-Inheriance
-912
-75
-27
-780000
-Eragon
-557
-47
-19
-1000000
-Eldest
-780
-55
+555
+3
+60000
+Cem Anos de Solidão
+51
+333
+6
+40000
+O Amor nos Tempos do Cólera
+33
+333
+4
+98000
+O Engenhoso Fidalgo Dom Quixote de la Mancha
+403
+100
+12
+78000
+Guerra e Paz
+151
+550
 21
-900000
-Brisingr
-820
-62
-25
-850000
-Inheriance
-912
+9000
+Dom Casmurro
+119
+100
 75
-27
-780000
-Eragon
-557
-47
-19
-1000000
-Eldest
-780
-55
-21
-900000
-Brisingr
-820
-62
-25
-850000
-Inheriance
-912
+87800
+Memórias Póstumas de Brás Cubas
+137
+550
+10
+12000
+Finnegans Wake
+79
+5550
+12
+81000
+Ulysses
+96
+550
+12
+7000
+Por Quem os Sinos Dobram
+78
+111
+45
+22111
+O Pequeno Príncipe
 75
-27
-780000
-Eragon
-557
-47
-19
-1000000
-Eldest
-780
-55
-21
-900000
-Brisingr
-820
-62
-25
-850000
-Inheriance
-912
-75
-27
-780000
-Eragon
-557
-47
-19
-1000000
-Eldest
-780
-55
-21
-900000
-Brisingr
-820
-62
-25
-850000
-Inheriance
-912
-75
-27
-780000
-Eragon
-557
-47
-19
-1000000
-Eldest
-780
-55
-21
-900000
-Brisingr
-820
-62
-25
-850000
-Inheriance
-912
-75
-27
-780000
-Eragon
-557
-47
-19
-1000000
-Eldest
-780
-55
-21
-900000
-Brisingr
-820
-62
-25
-850000
-Inheriance
-912
-75
-27
-780000
+222
+13
+7500
+Crime e Castigo
+152
+888
+12
+7500
+Os Irmãos Karamázov
+138
+111
+10
+8900
+A Revolução dos Bichos
+73
+1205
+9
+4500
+Capitães da Areia
+81
+2331
+8
+50000
+Admirável Mundo Novo
+86
+222
+7
+50000
+A Peste
+71
+294
+10
+50000
+O Estrangeiro
+76
+169
+6
+45000
+O Pêndulo de Foucault
+30
+509
+12
+52000
