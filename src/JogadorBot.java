@@ -1,3 +1,5 @@
+package Trunfo;
+
 import java.util.Random;
 
 public class JogadorBot extends Jogador{
