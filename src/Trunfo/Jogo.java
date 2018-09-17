@@ -1,5 +1,7 @@
 package Trunfo;
 
+import java.util.Collections;
+
 public class Jogo{
     Baralho baralho;
     Jogador jogador;
@@ -9,14 +11,16 @@ public class Jogo{
         this.baralho = baralho;
         this.jogador = jogador;
         this.bot = bot;
+		Collections.shuffle(this.baralho.cartas);
+        distribuirCartas();
     }
 
     void distribuirCartas(){
     	int i;
-    	for(i=0;i<12;i++) {
+    	for(i=0;i<16;i++) {
     		jogador.monte.add(baralho.cartas.get(i));
     	}
-    	for(i=12;i<32;i++) {
+    	for(i=16;i<32;i++) {
     		bot.monte.add(baralho.cartas.get(i));
     	} 
     }    
@@ -30,77 +34,82 @@ public class Jogo{
     	System.out.println("Empate! Escolha outra caracteristica:");
     }
     
-    int compararCaracteristicas(){
+    int compararCaracteristicas(Jogador j){
     	int result = 0;
         int i;
-        int r;
-        int repet=0;
-        
-        do {
-        
-        if(repet >0) {
-           	empate();
-        }
-        
-        i= jogador.escolherCaracteristica();
+
+        i = j.escolherCaracteristica();
+			System.out.println("Caracteristica Escolhida: " + i +"\n");
        
-        switch(i){
-        case 1: 
-        	if(bot.mao.paginas == jogador.mao.paginas) {
-        		result=0; 		//Empate
-        	}else{
-        		if(bot.mao.paginas > jogador.mao.paginas){
-        			result=1;	//Bot Vence
-        		}else{
-        			result=2; 	//Jogador Vence
-        		}
-        	}
-        case 2:
-        	if(bot.mao.preco == jogador.mao.preco) {
-        		result=0; 		//Empate
-        	}else{
-        		if(bot.mao.preco> jogador.mao.preco){
-        			result=1;	//Bot Vence
-          	  	}else{
-          	  		result=2; 	//Jogador Vence
-          	    }
-        	}	
-        case 3:
-            if(bot.mao.capitulos == jogador.mao.capitulos) {
-            	result=0; 		//Empate
-            }else{
-          	  	if(bot.mao.capitulos > jogador.mao.capitulos){
-          	  		result=1;	//Bot Vence
-            	}else{
-            		result=2; 	//Jogador Vence
-            	}
-             }	
-        case 4:
-             if(bot.mao.copiasVendidas == jogador.mao.copiasVendidas) {
-            	 result=0; 		//Empate
-             }else {
-            	 if(bot.mao.copiasVendidas> jogador.mao.copiasVendidas){
-            		 result=1;	//Bot Vence
-             	 }else{
-             		result=2; 	//Jogador Vence
-             	 }
-              }	
-        	}        
-        repet++;
-        return result;
-        
-        
-        } while (result==0 && ) ; //Executa enquando der empate
+        switch (i) {
+			case 1:
+				if (bot.mao.paginas == jogador.mao.paginas) {
+					compararCaracteristicas(j);      //Empate
+				} else {
+					if (bot.mao.paginas > jogador.mao.paginas) {
+						result = 1;    //Bot Vence
+						return result;
+					} else {
+						result = 2;    //Jogador Vence
+						return result;
+					}
+				}
+
+			case 2:
+				if (bot.mao.preco == jogador.mao.preco) {
+					compararCaracteristicas(j);        //Empate
+				} else {
+					if (bot.mao.preco > jogador.mao.preco) {
+						result = 1;    //Bot Vence
+						return result;
+					} else {
+						result = 2;    //Jogador Vence
+						return result;
+					}
+				}
+			case 3:
+				if (bot.mao.capitulos == jogador.mao.capitulos) {
+					compararCaracteristicas(j);        //Empate
+				} else {
+					if (bot.mao.capitulos > jogador.mao.capitulos) {
+						result = 1;    //Bot Vence
+						return result;
+					} else {
+						result = 2;    //Jogador Vence
+						return result;
+					}
+				}
+			case 4:
+				if (bot.mao.copiasVendidas == jogador.mao.copiasVendidas) {
+					compararCaracteristicas(j);         //Empate
+				} else {
+					if (bot.mao.copiasVendidas > jogador.mao.copiasVendidas) {
+						result = 1;    //Bot Vence
+						return result;
+					} else {
+						result = 2;    //Jogador Vence
+						return result;
+					}
+				}
+			default:
+				System.out.println("Opcao invalida: " + i);
+				compararCaracteristicas(j);
+		}
+
+		return result;
     }
     
-    void entregaVencedor(){
-    	int i;
-    	i=compararCaracteristicas();
+    void entregaVencedor(int i){
     	if(i==1) {
     		bot.receberMao(jogador.entregarMao());
+			System.out.println("Bot venceu!\n");
+			jogador.setVez(false);
+			bot.setVez(true);
     	}else {
     		jogador.receberMao(bot.entregarMao());
-    		
+			System.out.println("Jogador venceu!\n");
+			jogador.setVez(true);
+			bot.setVez(false);
     	}
     }  
 }

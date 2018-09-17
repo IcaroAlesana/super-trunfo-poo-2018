@@ -2,7 +2,7 @@ O Nome da Rosa
 38
 514
 7
-20000
+2000
 1a
 Doutor Fausto
 71
@@ -10,7 +10,7 @@ Doutor Fausto
 28
 94000
 2a
-A Montanha M√°gica
+A Montanha M·gica
 94
 321
 26
@@ -22,7 +22,7 @@ Os Buddenbrook
 25
 24000
 4a
-Som e a F√∫ria
+Som e a F˙ria
 89
 545
 24
@@ -70,25 +70,25 @@ A Hora da Estrela
 2
 100000
 4c
-Primeiras Est√≥rias
+Primeiras EstÛrias
 86
 703
 7
 78000
 1d
-Grande Sert√£o: Veredas
+Grande Sert„o: Veredas
 62
 555
 3
 60000
 2d
-Cem Anos de Solid√£o
+Cem Anos de Solid„o
 51
 333
 6
 40000
 3d
-O Amor nos Tempos do C√≥lera
+O Amor nos Tempos do CÛlera
 33
 333
 4
@@ -112,7 +112,7 @@ Dom Casmurro
 75
 87800
 7a
-Mem√≥rias P√≥stumas de Br√°s Cubas
+MemÛrias PÛstumas de Br·s Cubas
 137
 550
 10
@@ -136,7 +136,7 @@ Por Quem os Sinos Dobram
 45
 22111
 7b
-O Pequeno¬†Pr√≠ncipe
+O Pequeno†PrÌncipe
 75
 222
 13
@@ -148,25 +148,25 @@ Crime e Castigo
 12
 7500
 5c
-Os Irm√£os Karam√°zov
+Os Irm„os Karam·zov
 138
 111
 10
 8900
 6c
-A Revolu√ß√£o dos Bichos
+A RevoluÁ„o dos Bichos
 73
 1205
 9
 4500
 7c
-Capit√£es da Areia
+Capit„es da Areia
 81
 2331
 8
 50000
 8c
-Admir√°vel Mundo Novo
+Admir·vel Mundo Novo
 86
 222
 7
@@ -184,7 +184,7 @@ O Estrangeiro
 6
 45000
 7d
-O P√™ndulo de Foucault
+O PÍndulo de Foucault
 30
 509
 12

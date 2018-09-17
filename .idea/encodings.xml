@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="ISO-8859-1">
+    <file url="file://$PROJECT_DIR$/livros.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Trunfo/Baralho.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Trunfo/Carta.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Trunfo/Jogador.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Trunfo/JogadorBot.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Trunfo/Jogo.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Trunfo/Main.java" charset="ISO-8859-1" />
+    <file url="PROJECT" charset="ISO-8859-1" />
+  </component>
+</project>
