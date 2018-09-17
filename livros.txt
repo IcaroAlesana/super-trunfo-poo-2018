@@ -3,158 +3,190 @@ O Nome da Rosa
 514
 7
 20000
+1a
 Doutor Fausto
 71
 213
 28
 94000
-A Montanha M·gica
+2a
+A Montanha M√°gica
 94
 321
 26
 54000
+3a
 Os Buddenbrook
 117
 123
 25
 24000
-Som e a F˙ria
+4a
+Som e a F√∫ria
 89
 545
 24
 71000
+Super Trunfo
 As Flores do Mal
 161
 456
 17
 32000
+2b
 Hamlet
 409
 1054
 18
 8000
+3b
 Em Busca do Tempo Perdido
 110
 987
 19
 4000
+4b
 O Vermelho e o Negro
 188
 789
 1
 50000
+1c
 Madame Bovary
 162
 900
 3
 48000
+2c
 Um Sopro de Vida
 40
 888
 8
 45000
+3c
 A Hora da Estrela
 41
 703
 2
 100000
-Primeiras EstÛrias
+4c
+Primeiras Est√≥rias
 86
 703
-1
+7
 78000
-Grande Sert„o: Veredas
+1d
+Grande Sert√£o: Veredas
 62
 555
 3
 60000
-Cem Anos de Solid„o
+2d
+Cem Anos de Solid√£o
 51
 333
 6
 40000
-O Amor nos Tempos do CÛlera
+3d
+O Amor nos Tempos do C√≥lera
 33
 333
 4
 98000
+4d
 O Engenhoso Fidalgo Dom Quixote de la Mancha
 403
 100
 12
 78000
+5a
 Guerra e Paz
 151
 550
 21
 9000
+6a
 Dom Casmurro
 119
 100
 75
 87800
-MemÛrias PÛstumas de Br·s Cubas
+7a
+Mem√≥rias P√≥stumas de Br√°s Cubas
 137
 550
 10
 12000
+8a
 Finnegans Wake
 79
 5550
 12
 81000
+5b
 Ulysses
 96
 550
 12
 7000
+6b
 Por Quem os Sinos Dobram
 78
 111
 45
 22111
-O Pequeno†PrÌncipe
+7b
+O Pequeno¬†Pr√≠ncipe
 75
 222
 13
 7500
+8b
 Crime e Castigo
 152
 888
 12
 7500
-Os Irm„os Karam·zov
+5c
+Os Irm√£os Karam√°zov
 138
 111
 10
 8900
-A RevoluÁ„o dos Bichos
+6c
+A Revolu√ß√£o dos Bichos
 73
 1205
 9
 4500
-Capit„es da Areia
+7c
+Capit√£es da Areia
 81
 2331
 8
 50000
-Admir·vel Mundo Novo
+8c
+Admir√°vel Mundo Novo
 86
 222
 7
 50000
+5d
 A Peste
 71
 294
 10
 50000
+6d
 O Estrangeiro
 76
 169
 6
 45000
-O PÍndulo de Foucault
+7d
+O P√™ndulo de Foucault
 30
 509
 12
 52000
+8d
