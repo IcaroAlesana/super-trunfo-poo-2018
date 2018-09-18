@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Baralho {
     ArrayList<Carta> cartas;
 
-    //construtor inicializa o arraylist e lê o baralho a partir de um arquivo txt.
+    //construtor inicializa o arraylist e le o baralho a partir de um arquivo txt.
     public Baralho(){
         Scanner s;
         this.cartas = new ArrayList<Carta>();
