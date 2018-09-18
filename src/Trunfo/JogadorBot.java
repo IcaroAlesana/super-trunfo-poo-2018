@@ -3,7 +3,6 @@ package Trunfo;
 import java.util.Random;
 
 public class JogadorBot extends Jogador{
-
     @Override
     int escolherCaracteristica() {
         int min = 1;
