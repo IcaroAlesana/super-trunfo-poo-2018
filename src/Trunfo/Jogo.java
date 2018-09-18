@@ -1,6 +1,7 @@
 package Trunfo;
 
 import java.util.Collections;
+import java.util.Scanner;
 
 public class Jogo{
     Baralho baralho;
@@ -34,14 +35,39 @@ public class Jogo{
     	System.out.println("Empate! Escolha outra caracteristica:");
     }
     
+    int continuar() {
+    	System.out.println("Continuar? (0 para desistir) \n");  
+        Scanner enter = new Scanner(System.in);
+        int continua = enter.nextInt();
+        return continua;
+    } 
+    
+    
+    int testeSuperTrunfo() {
+    	int superTrunfoVenc=0;
+    	if(jogador.mao.codigo.equals("Super Trunfo") == true &&  bot.mao.codigo != "1a" && bot.mao.codigo != "2a" && bot.mao.codigo != "3a" && bot.mao.codigo != "4a" && bot.mao.codigo != "5a" && bot.mao.codigo != "6a" && bot.mao.codigo != "7a" && bot.mao.codigo != "8a") {
+    		superTrunfoVenc =2;
+    	}else{
+	    	if(bot.mao.codigo.equals("Super Trunfo") == true && jogador.mao.codigo != "1a" && jogador.mao.codigo != "2a" && jogador.mao.codigo != "3a" && jogador.mao.codigo != "4a" && jogador.mao.codigo != "5a" && jogador.mao.codigo != "6a" && jogador.mao.codigo != "7a" && jogador.mao.codigo != "8a") {
+	    			superTrunfoVenc = 1;
+	    	}else {
+	    		superTrunfoVenc = 0;
+	    	}
+    	}
+		return superTrunfoVenc;
+    }
+    
+        
     int compararCaracteristicas(Jogador j){
     	int result = 0;
         int i;
 
         i = j.escolherCaracteristica();
 			System.out.println("Caracteristica Escolhida: " + i +"\n");
-       
-        switch (i) {
+		
+		if(testeSuperTrunfo() == 0){	
+        
+		switch (i) {
 			case 1:
 				if (bot.mao.paginas == jogador.mao.paginas) {
 					compararCaracteristicas(j);      //Empate
@@ -97,6 +123,10 @@ public class Jogo{
 		}
 
 		return result;
+		}else {
+			result = testeSuperTrunfo();
+			return result;
+		}
     }
     
     void entregaVencedor(int i){
