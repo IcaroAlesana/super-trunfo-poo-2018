@@ -8,7 +8,6 @@ public class Carta {
     int copiasVendidas;
     String codigo;
     
-    
     public Carta(String nome, int preco, int paginas, int capitulos, int copiasVendidas, String codigo){
         this.nome = nome;
         this.preco = preco;
@@ -20,6 +19,6 @@ public class Carta {
 
     public void imprimeCarta(){
 
-        System.out.println("Nome: " +this.nome + "\n" + "Nº de páginas: " + this.paginas + "\n" + "Preço: " + this.preco + "\n" + "Nº de Capítulos: " + this.capitulos + "\n" + "Cópias vendidas: " + this.copiasVendidas + "\n" + "Código: " + this.codigo + "\n\n");
+        System.out.println("Nome: " +this.nome + "\n" + "NÂº de pÃ¡ginas: " + this.paginas + "\n" + "PreÃ§o: " + this.preco + "\n" + "NÂº de CapÃ­tulos: " + this.capitulos + "\n" + "CÃ³pias vendidas: " + this.copiasVendidas + "\n" + "CÃ³digo: " + this.codigo + "\n\n");
     }
 }
