@@ -7,6 +7,7 @@ public class Jogador {
     ArrayList<Carta> monte;
     Carta mao;
 	private Scanner s;
+	private Scanner enter;
 	boolean vez;
 
     public Jogador(){
@@ -14,19 +15,32 @@ public class Jogador {
         this.vez = false;
     }
 
-    void comprarCarta() {
+   void comprarCarta() {
         Carta c = monte.get(0);
         this.mao = c;
         monte.remove(0);
     }
+   
+   void mostraBaralho() {
+	    int i;
+	  		System.out.println("");
+	    	System.out.println("---------------");
+	      	System.out.println("");
+	    	System.out.println("Seu Baralho:");
+	        System.out.println(" ");
+	        for (i=0;i<this.monte.size();i++) {
+	        	System.out.println("Carta "+ i+": "+monte.get(i).nome);
+	        }
+	}
 
     void mostraCarta() {
     	System.out.println("A carta comprada tem as seguintes caracteristicas:");
+        System.out.println("");
     	mao.imprimeCarta();
     }
     
     int escolherCaracteristica(){
-        System.out.println("Digite o número correspondente a característica que deseja utilizar: \n1 - Páginas\n2 - Preço\n3 - Capítulos\n4 - Cópias Vendidas\n");
+        System.out.println("Digite o nÃºmero correspondente a caracterÃ­stica que deseja utilizar: \n1 - PÃ¡ginas\n2 - PreÃ§o\n3 - CapÃ­tulos\n4 - CÃ³pias Vendidas\n");
         Scanner s = new Scanner(System.in);
         int escolha = s.nextInt();
         return escolha;
